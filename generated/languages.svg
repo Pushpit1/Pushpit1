@@ -1,0 +1,269 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="560"
+height="270"
+viewBox="0 0 560 270">
+
+<rect
+  x="1"
+  y="1"
+  width="558"
+  height="268"
+  rx="20"
+  fill="#0D0D12"
+  stroke="#EF93C4"
+  stroke-width="1"
+/>
+
+<text
+  x="30"
+  y="43"
+  fill="#EF93C4"
+  font-family="Arial, sans-serif"
+  font-size="24"
+  font-weight="700">
+  Most Used Languages
+</text>
+
+<rect
+  x="30"
+  y="58"
+  width="500"
+  height="2"
+  rx="1"
+  fill="#FF69B4"
+/>
+
+
+        <text
+          x="35"
+          y="88"
+          fill="#F8BBD0"
+          font-family="Arial, sans-serif"
+          font-size="14">
+          Python
+        </text>
+
+        <text
+          x="525"
+          y="88"
+          fill="white"
+          font-family="Arial, sans-serif"
+          font-size="14"
+          text-anchor="end">
+          83.2%
+        </text>
+
+        <rect
+          x="35"
+          y="96"
+          width="490"
+          height="7"
+          rx="3.5"
+          fill="#33232E"
+        />
+
+        <rect
+          x="35"
+          y="96"
+          width="407.91"
+          height="7"
+          rx="3.5"
+          fill="#EF93C4"
+        />
+        
+        <text
+          x="35"
+          y="116"
+          fill="#F8BBD0"
+          font-family="Arial, sans-serif"
+          font-size="14">
+          TypeScript
+        </text>
+
+        <text
+          x="525"
+          y="116"
+          fill="white"
+          font-family="Arial, sans-serif"
+          font-size="14"
+          text-anchor="end">
+          6.7%
+        </text>
+
+        <rect
+          x="35"
+          y="124"
+          width="490"
+          height="7"
+          rx="3.5"
+          fill="#33232E"
+        />
+
+        <rect
+          x="35"
+          y="124"
+          width="32.73"
+          height="7"
+          rx="3.5"
+          fill="#EF93C4"
+        />
+        
+        <text
+          x="35"
+          y="144"
+          fill="#F8BBD0"
+          font-family="Arial, sans-serif"
+          font-size="14">
+          HTML
+        </text>
+
+        <text
+          x="525"
+          y="144"
+          fill="white"
+          font-family="Arial, sans-serif"
+          font-size="14"
+          text-anchor="end">
+          3.6%
+        </text>
+
+        <rect
+          x="35"
+          y="152"
+          width="490"
+          height="7"
+          rx="3.5"
+          fill="#33232E"
+        />
+
+        <rect
+          x="35"
+          y="152"
+          width="17.80"
+          height="7"
+          rx="3.5"
+          fill="#EF93C4"
+        />
+        
+        <text
+          x="35"
+          y="172"
+          fill="#F8BBD0"
+          font-family="Arial, sans-serif"
+          font-size="14">
+          CSS
+        </text>
+
+        <text
+          x="525"
+          y="172"
+          fill="white"
+          font-family="Arial, sans-serif"
+          font-size="14"
+          text-anchor="end">
+          3.2%
+        </text>
+
+        <rect
+          x="35"
+          y="180"
+          width="490"
+          height="7"
+          rx="3.5"
+          fill="#33232E"
+        />
+
+        <rect
+          x="35"
+          y="180"
+          width="15.76"
+          height="7"
+          rx="3.5"
+          fill="#EF93C4"
+        />
+        
+        <text
+          x="35"
+          y="200"
+          fill="#F8BBD0"
+          font-family="Arial, sans-serif"
+          font-size="14">
+          C++
+        </text>
+
+        <text
+          x="525"
+          y="200"
+          fill="white"
+          font-family="Arial, sans-serif"
+          font-size="14"
+          text-anchor="end">
+          2.5%
+        </text>
+
+        <rect
+          x="35"
+          y="208"
+          width="490"
+          height="7"
+          rx="3.5"
+          fill="#33232E"
+        />
+
+        <rect
+          x="35"
+          y="208"
+          width="12.03"
+          height="7"
+          rx="3.5"
+          fill="#EF93C4"
+        />
+        
+        <text
+          x="35"
+          y="228"
+          fill="#F8BBD0"
+          font-family="Arial, sans-serif"
+          font-size="14">
+          JavaScript
+        </text>
+
+        <text
+          x="525"
+          y="228"
+          fill="white"
+          font-family="Arial, sans-serif"
+          font-size="14"
+          text-anchor="end">
+          0.8%
+        </text>
+
+        <rect
+          x="35"
+          y="236"
+          width="490"
+          height="7"
+          rx="3.5"
+          fill="#33232E"
+        />
+
+        <rect
+          x="35"
+          y="236"
+          width="3.77"
+          height="7"
+          rx="3.5"
+          fill="#EF93C4"
+        />
+        
+
+<text
+  x="35"
+  y="245"
+  fill="#A9A3AA"
+  font-family="Arial, sans-serif"
+  font-size="11">
+  Based on code bytes in public repositories
+</text>
+
+</svg>

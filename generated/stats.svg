@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="560"
+height="270"
+viewBox="0 0 560 270">
+
+<defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0D0D12"/>
+    <stop offset="100%" stop-color="#18131A"/>
+  </linearGradient>
+
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#EF93C4"/>
+    <stop offset="100%" stop-color="#FF69B4"/>
+  </linearGradient>
+</defs>
+
+<rect
+  x="1"
+  y="1"
+  width="558"
+  height="268"
+  rx="20"
+  fill="url(#background)"
+  stroke="#EF93C4"
+  stroke-width="1"
+/>
+
+<text
+  x="30"
+  y="43"
+  fill="#EF93C4"
+  font-family="Arial, sans-serif"
+  font-size="24"
+  font-weight="700">
+  GitHub Statistics
+</text>
+
+<rect
+  x="30"
+  y="58"
+  width="500"
+  height="2"
+  rx="1"
+  fill="url(#accent)"
+/>
+
+<!-- Row 1 -->
+
+<text
+  x="35"
+  y="100"
+  fill="#F8BBD0"
+  font-family="Arial, sans-serif"
+  font-size="14">
+  Public Repositories
+</text>
+
+<text
+  x="35"
+  y="128"
+  fill="white"
+  font-family="Arial, sans-serif"
+  font-size="26"
+  font-weight="700">
+  14
+</text>
+
+<text
+  x="215"
+  y="100"
+  fill="#F8BBD0"
+  font-family="Arial, sans-serif"
+  font-size="14">
+  Total Stars
+</text>
+
+<text
+  x="215"
+  y="128"
+  fill="white"
+  font-family="Arial, sans-serif"
+  font-size="26"
+  font-weight="700">
+  0
+</text>
+
+<text
+  x="395"
+  y="100"
+  fill="#F8BBD0"
+  font-family="Arial, sans-serif"
+  font-size="14">
+  Forks
+</text>
+
+<text
+  x="395"
+  y="128"
+  fill="white"
+  font-family="Arial, sans-serif"
+  font-size="26"
+  font-weight="700">
+  0
+</text>
+
+<!-- Row 2 -->
+
+<text
+  x="35"
+  y="170"
+  fill="#F8BBD0"
+  font-family="Arial, sans-serif"
+  font-size="14">
+  Followers
+</text>
+
+<text
+  x="35"
+  y="198"
+  fill="white"
+  font-family="Arial, sans-serif"
+  font-size="26"
+  font-weight="700">
+  1
+</text>
+
+<text
+  x="215"
+  y="170"
+  fill="#F8BBD0"
+  font-family="Arial, sans-serif"
+  font-size="14">
+  Following
+</text>
+
+<text
+  x="215"
+  y="198"
+  fill="white"
+  font-family="Arial, sans-serif"
+  font-size="26"
+  font-weight="700">
+  0
+</text>
+
+<text
+  x="395"
+  y="170"
+  fill="#F8BBD0"
+  font-family="Arial, sans-serif"
+  font-size="14">
+  Public Activity
+</text>
+
+<text
+  x="395"
+  y="198"
+  fill="white"
+  font-family="Arial, sans-serif"
+  font-size="20"
+  font-weight="700">
+  Building
+</text>
+
+<text
+  x="35"
+  y="238"
+  fill="#A9A3AA"
+  font-family="Arial, sans-serif"
+  font-size="11">
+  Automatically generated from GitHub
+</text>
+
+</svg>
