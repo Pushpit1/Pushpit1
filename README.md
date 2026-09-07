@@ -3,16 +3,16 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1A1020,50:EF93C4,100:FF69B4&height=230&section=header&text=Pushpit1&fontSize=62&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35"
+    srcset="https://capsule-render.vercel.app/api?type=waving&color=0:140B18,45:7B3F6B,75:EF93C4,100:FF69B4&height=260&section=header&text=Pushpit&fontSize=70&fontColor=FFFFFF&fontAlignY=35&animation=fadeIn"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://capsule-render.vercel.app/api?type=waving&color=0:F8BBD0,50:EF93C4,100:FF69B4&height=230&section=header&text=Pushpit1&fontSize=62&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35"
+    srcset="https://capsule-render.vercel.app/api?type=waving&color=0:F8BBD0,45:EF93C4,75:EC78B8,100:FF69B4&height=260&section=header&text=Pushpit&fontSize=70&fontColor=FFFFFF&fontAlignY=35&animation=fadeIn"
   />
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:F8BBD0,50:EF93C4,100:FF69B4&height=230&section=header&text=Pushpit1&fontSize=62&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:F8BBD0,45:EF93C4,75:EC78B8,100:FF69B4&height=260&section=header&text=Pushpit&fontSize=70&fontColor=FFFFFF&fontAlignY=35&animation=fadeIn"
     width="100%"
-    alt="Pushpit1 header banner"
+    alt="Pushpit"
   />
 </picture>
 
@@ -20,44 +20,37 @@
 
 # Hey there, I'm Pushpit 👋
 
+### Full-Stack Developer • Software Engineer • CS Enthusiast
+
 <a href="https://git.io/typing-svg">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=EF93C4&center=true&vCenter=true&width=760&lines=Software+Engineer;Backend+%7C+Frontend+%7C+Systems;Building+Scalable+Software;Learning+Computer+Science+Deeply;Turning+Ideas+Into+Production+Software"
-    alt="Typing animation"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=EF93C4&center=true&vCenter=true&width=850&lines=Full-Stack+Developer;Software+Engineer;Computer+Science+Enthusiast;Building+Scalable+Software;Learning+Systems+From+the+Ground+Up;Turning+Ideas+Into+Production+Software"
+    alt="Typing SVG"
   />
 </a>
 
 <br><br>
 
 <a href="https://github.com/Pushpit1">
-  <img
-    src="https://img.shields.io/github/followers/Pushpit1?label=Followers&style=for-the-badge&color=EF93C4&labelColor=161616"
-    alt="GitHub followers"
-  />
+  <img src="https://img.shields.io/github/followers/Pushpit1?style=for-the-badge&label=Followers&color=EF93C4&labelColor=161616" alt="Followers">
 </a>
 
 &nbsp;
 
 <a href="https://github.com/Pushpit1?tab=repositories">
-  <img
-    src="https://img.shields.io/github/stars/Pushpit1?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&color=F8BBD0&labelColor=161616"
-    alt="GitHub stars"
-  />
+  <img src="https://img.shields.io/github/stars/Pushpit1?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&label=Stars&color=F8BBD0&labelColor=161616" alt="Stars">
 </a>
 
 &nbsp;
 
 <a href="https://github.com/Pushpit1">
-  <img
-    src="https://komarev.com/ghpvc/?username=Pushpit1&style=for-the-badge&color=FF69B4&label=PROFILE+VIEWS"
-    alt="Profile views"
-  />
+  <img src="https://komarev.com/ghpvc/?username=Pushpit1&style=for-the-badge&color=FF69B4&label=PROFILE+VIEWS" alt="Profile Views">
 </a>
 
 <br><br>
 
-<a href="https://github.com/Pushpit1?tab=followers">
-  <img src="https://img.shields.io/github/followers/Pushpit1?style=social" alt="GitHub">
+<a href="https://www.linkedin.com/in/pushpit-kumar-gaur-7484b0341/">
+  <img src="https://img.shields.io/badge/LinkedIn-Pushpit%20Kumar%20Gaur-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 
 </div>
@@ -68,30 +61,34 @@
 
 <div align="center">
 
-## 🌸 About Me
+## 🧑‍💻 About Me
 
 </div>
 
-<table align="center" width="90%">
+<table align="center" width="92%">
 <tr>
 <td width="65%" valign="middle">
 
-### 👨‍💻 Hey, I'm Pushpit
+### 👋 Hello, I'm Pushpit
 
-I'm a software engineering enthusiast focused on building reliable, scalable, and maintainable software while developing a deep understanding of Computer Science fundamentals.
+I'm a **Full-Stack Developer, Software Engineer, and Computer Science enthusiast** who enjoys building software while developing a deep understanding of the fundamentals behind it.
 
-- 🚀 Building production-ready applications
-- 🧠 Strengthening Computer Science fundamentals
-- ⚙️ Exploring backend engineering and system architecture
-- 🎨 Building modern frontend experiences
-- 🔐 Interested in reliable and secure software
-- 📚 Learning continuously and going beyond surface-level knowledge
-- 💡 Enjoy solving difficult problems and understanding the "why" behind systems
-- 🛠️ Turning ideas into practical software
+I like going beyond simply making things work — I want to understand **why they work, how they scale, and how they can be engineered better**.
 
 <br>
 
-> **Build deeply. Learn continuously. Ship thoughtfully.**
+- 💻 Building full-stack applications
+- 🧠 Strengthening Computer Science fundamentals
+- ⚙️ Exploring backend engineering & system design
+- 🌐 Creating modern frontend experiences
+- 🏗️ Learning software architecture & scalable systems
+- 🔍 Interested in how software works under the hood
+- 📚 Continuously learning and improving
+- 🚀 Turning ideas into real-world software
+
+<br>
+
+> **I don't just want to use technology — I want to understand it.**
 
 </td>
 
@@ -99,8 +96,16 @@ I'm a software engineering enthusiast focused on building reliable, scalable, an
 
 <img
   src="https://github.com/Pushpit1.png"
-  width="260"
-  alt="Pushpit profile image"
+  width="250"
+  alt="Pushpit GitHub profile"
+/>
+
+<br><br>
+
+<img
+  src="https://skillicons.dev/icons?i=github"
+  width="55"
+  alt="GitHub"
 />
 
 </td>
@@ -113,51 +118,134 @@ I'm a software engineering enthusiast focused on building reliable, scalable, an
 
 <div align="center">
 
-## 🧰 Tech Stack
+## 🧠 What I'm Focused On
 
 <br>
 
-### 💻 Languages
+<table>
+<tr>
+<td align="center" width="25%">
+
+### 💻
+**Development**
+
+Building full-stack applications and production-ready software.
+
+</td>
+
+<td align="center" width="25%">
+
+### 🧠
+**Computer Science**
+
+Deepening knowledge of DSA, OS, DBMS, networking and software engineering.
+
+</td>
+
+<td align="center" width="25%">
+
+### 🏗️
+**Engineering**
+
+Learning architecture, scalability, APIs and distributed systems.
+
+</td>
+
+<td align="center" width="25%">
+
+### 🚀
+**Growth**
+
+Continuously improving problem-solving and engineering skills.
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+## ⚡ Tech Stack
+
+<br>
+
+### Languages
+
+<img src="https://skillicons.dev/icons?i=c,cpp,python,java,javascript,typescript" alt="Languages">
+
+<br><br>
+
+### Frontend
+
+<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind" alt="Frontend">
+
+<br><br>
+
+### Backend
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,fastapi,django" alt="Backend">
+
+<br><br>
+
+### Databases
+
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis" alt="Databases">
+
+<br><br>
+
+### DevOps & Tools
+
+<img src="https://skillicons.dev/icons?i=git,github,docker,linux,aws,nginx,postman,vscode" alt="DevOps">
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+## 📊 GitHub Statistics
+
+<br>
+
+<a href="https://github.com/Pushpit1">
+  <img
+    height="180"
+    src="https://github-readme-stats.vercel.app/api?username=Pushpit1&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=EF93C4&icon_color=FF69B4&text_color=F8BBD0"
+    alt="GitHub Statistics"
+  />
+</a>
+
+&nbsp;&nbsp;
+
+<a href="https://github.com/Pushpit1">
+  <img
+    height="180"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pushpit1&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=EF93C4&text_color=F8BBD0"
+    alt="Top Languages"
+  />
+</a>
+
+<br><br>
 
 <img
-  src="https://skillicons.dev/icons?i=c,cpp,python,java,javascript,typescript"
-  alt="Programming languages"
+  src="https://streak-stats.demolab.com?user=Pushpit1&hide_border=true&background=00000000&ring=EF93C4&fire=FF69B4&currStreakLabel=EF93C4&sideLabels=F8BBD0&currStreakNum=FF69B4&sideNums=F8BBD0&dates=F8BBD0"
+  width="70%"
+  alt="GitHub Streak"
 />
 
 <br><br>
 
-### 🎨 Frontend
-
 <img
-  src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind"
-  alt="Frontend technologies"
-/>
-
-<br><br>
-
-### ⚙️ Backend
-
-<img
-  src="https://skillicons.dev/icons?i=nodejs,express,nestjs,fastapi,django"
-  alt="Backend technologies"
-/>
-
-<br><br>
-
-### 🗄️ Databases
-
-<img
-  src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis"
-  alt="Databases"
-/>
-
-<br><br>
-
-### ☁️ DevOps & Tools
-
-<img
-  src="https://skillicons.dev/icons?i=git,github,docker,linux,aws,nginx,postman,vscode"
-  alt="DevOps and developer tools"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=Pushpit1&bg_color=00000000&color=F8BBD0&line=EF93C4&point=FF69B4&area=true&hide_border=true"
+  width="95%"
+  alt="GitHub Activity Graph"
 />
 
 </div>
@@ -168,41 +256,14 @@ I'm a software engineering enthusiast focused on building reliable, scalable, an
 
 <div align="center">
 
-## 📊 GitHub Analytics
+## 🏆 GitHub Trophies
 
 <br>
 
-<a href="https://github.com/Pushpit1">
-  <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api?username=Pushpit1&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=00000000&title_color=EF93C4&icon_color=FF69B4&text_color=F8BBD0"
-    alt="Pushpit1 GitHub statistics"
-  />
-</a>
-
-&nbsp;&nbsp;
-
-<a href="https://github.com/Pushpit1">
-  <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pushpit1&layout=compact&hide_border=true&langs_count=8&bg_color=00000000&title_color=EF93C4&text_color=F8BBD0"
-    alt="Pushpit1 top languages"
-  />
-</a>
-
-<br><br>
-
 <img
-  src="https://streak-stats.demolab.com?user=Pushpit1&hide_border=true&background=00000000&ring=EF93C4&fire=FF69B4&currStreakLabel=EF93C4&sideLabels=F8BBD0&currStreakNum=FF69B4&sideNums=F8BBD0&dates=F8BBD0"
-  alt="GitHub contribution streak"
-/>
-
-<br><br>
-
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=Pushpit1&bg_color=00000000&color=F8BBD0&line=EF93C4&point=FF69B4&area=true&hide_border=true"
+  src="https://github-profile-trophy.vercel.app/?username=Pushpit1&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1"
   width="95%"
-  alt="GitHub activity graph"
+  alt="GitHub Trophies"
 />
 
 </div>
@@ -218,16 +279,15 @@ I'm a software engineering enthusiast focused on building reliable, scalable, an
 <br>
 
 <!--
-GitHub Action:
-https://github.com/Platane/snk
+This animation is generated automatically by GitHub Actions.
 
-The GitHub Action should generate:
-output/github-contribution-grid-snake.svg
+Workflow:
+.github/workflows/snake.yml
 -->
 
 <img
   src="https://raw.githubusercontent.com/Pushpit1/Pushpit1/output/github-contribution-grid-snake.svg"
-  alt="GitHub contribution snake"
+  alt="Contribution Snake"
 />
 
 </div>
@@ -238,83 +298,163 @@ output/github-contribution-grid-snake.svg
 
 <div align="center">
 
-## 🌐 Connect With Me
+## 🚀 Featured Projects
+
+<br>
+
+<table width="90%">
+<tr>
+
+<td width="50%" align="center">
+
+### 🔥 Project 01
+
+**Your Project Name**
+
+> Your project description goes here.
+
+`Technology` `Technology` `Technology`
+
+<br>
+
+<a href="https://github.com/Pushpit1/PROJECT_01">
+  <img src="https://img.shields.io/badge/View%20Project-FF69B4?style=for-the-badge&logo=github&logoColor=white" alt="Project">
+</a>
+
+</td>
+
+<td width="50%" align="center">
+
+### ⚡ Project 02
+
+**Your Project Name**
+
+> Your project description goes here.
+
+`Technology` `Technology` `Technology`
+
+<br>
+
+<a href="https://github.com/Pushpit1/PROJECT_02">
+  <img src="https://img.shields.io/badge/View%20Project-EF93C4?style=for-the-badge&logo=github&logoColor=white" alt="Project">
+</a>
+
+</td>
+
+</tr>
+</table>
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+## 📚 Currently Learning
+
+<br>
+
+<img src="https://img.shields.io/badge/Computer%20Science-EF93C4?style=for-the-badge" alt="Computer Science">
+&nbsp;
+<img src="https://img.shields.io/badge/Data%20Structures-F8BBD0?style=for-the-badge&labelColor=161616" alt="Data Structures">
+&nbsp;
+<img src="https://img.shields.io/badge/Algorithms-FF69B4?style=for-the-badge" alt="Algorithms">
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Operating%20Systems-EF93C4?style=for-the-badge" alt="Operating Systems">
+&nbsp;
+<img src="https://img.shields.io/badge/DBMS-F8BBD0?style=for-the-badge&labelColor=161616" alt="DBMS">
+&nbsp;
+<img src="https://img.shields.io/badge/Computer%20Networks-FF69B4?style=for-the-badge" alt="Computer Networks">
+
+<br><br>
+
+<img src="https://img.shields.io/badge/System%20Design-EF93C4?style=for-the-badge" alt="System Design">
+&nbsp;
+<img src="https://img.shields.io/badge/Software%20Engineering-F8BBD0?style=for-the-badge&labelColor=161616" alt="Software Engineering">
+&nbsp;
+<img src="https://img.shields.io/badge/Full--Stack%20Development-FF69B4?style=for-the-badge" alt="Full Stack Development">
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+## 🎯 Goals
+
+<br>
+
+<table width="85%">
+<tr>
+<td align="center">
+
+**01**  
+Become a stronger software engineer
+
+</td>
+<td align="center">
+
+**02**  
+Master Computer Science fundamentals
+
+</td>
+<td align="center">
+
+**03**  
+Build high-quality production systems
+
+</td>
+<td align="center">
+
+**04**  
+Keep learning every day
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+## 🌐 Let's Connect
 
 <br>
 
 <a href="https://www.linkedin.com/in/pushpit-kumar-gaur-7484b0341/">
-  <img
-    src="https://img.shields.io/badge/LinkedIn-Pushpit%20Kumar%20Gaur-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-    alt="LinkedIn"
-  />
+  <img src="https://img.shields.io/badge/LinkedIn-Connect%20With%20Me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 
 &nbsp;
 
-<!-- Replace YOUR_X_USERNAME with your real X username -->
-<a href="https://x.com/YOUR_X_USERNAME">
-  <img
-    src="https://img.shields.io/badge/X-YOUR_X_USERNAME-000000?style=for-the-badge&logo=x&logoColor=white"
-    alt="X"
-  />
-</a>
-
-&nbsp;
-
-<!-- Replace YOUR_INSTAGRAM_USERNAME with your real Instagram username -->
-<a href="https://instagram.com/YOUR_INSTAGRAM_USERNAME">
-  <img
-    src="https://img.shields.io/badge/Instagram-YOUR_INSTAGRAM_USERNAME-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-    alt="Instagram"
-  />
-</a>
-
-<br><br>
-
-<!-- Replace YOUR_TIKTOK_USERNAME with your real TikTok username -->
-<a href="https://www.tiktok.com/@YOUR_TIKTOK_USERNAME">
-  <img
-    src="https://img.shields.io/badge/TikTok-YOUR_TIKTOK_USERNAME-000000?style=for-the-badge&logo=tiktok&logoColor=white"
-    alt="TikTok"
-  />
-</a>
-
-&nbsp;
-
-<!-- Replace YOUR_YOUTUBE_HANDLE with your real YouTube handle -->
-<a href="https://youtube.com/@YOUR_YOUTUBE_HANDLE">
-  <img
-    src="https://img.shields.io/badge/YouTube-YOUR_YOUTUBE_HANDLE-FF0000?style=for-the-badge&logo=youtube&logoColor=white"
-    alt="YouTube"
-  />
-</a>
-
-<br><br>
-
-<!-- Replace YOUR_EMAIL@example.com with your real email -->
-<a href="mailto:YOUR_EMAIL@example.com">
-  <img
-    src="https://img.shields.io/badge/Email-YOUR_EMAIL%40example.com-EF93C4?style=for-the-badge&logo=gmail&logoColor=white"
-    alt="Email"
-  />
+<a href="https://github.com/Pushpit1">
+  <img src="https://img.shields.io/badge/GitHub-Follow%20Me-161616?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 </a>
 
 </div>
 
 <br><br>
 
----
-
 <div align="center">
 
-### ✨ Thanks for visiting my profile ✨
+### 💗 Thanks for stopping by!
 
-<i>Let's build something meaningful together.</i>
+<i>Keep learning. Keep building. Keep shipping.</i>
 
 <br><br>
 
 <img
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:0D47A1,50:1976D2,100:42A5F5&height=150&section=footer&animation=twinkling"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:0D47A1,45:1976D2,75:42A5F5,100:64B5F6&height=170&section=footer&animation=twinkling"
   width="100%"
   alt="Blue waving footer"
 />
