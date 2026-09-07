@@ -1,69 +1,62 @@
 <div align="center">
 
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<!-- HERO -->
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://capsule-render.vercel.app/api?type=waving&color=0:09090B,45:18111F,75:7A4167,100:EF93C4&height=210&section=header&animation=fadeIn"
+    srcset="https://raw.githubusercontent.com/Pushpit1/Pushpit1/main/art/profile-banner.png"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,45:FCE4EC,75:F8BBD0,100:EF93C4&height=210&section=header&animation=fadeIn"
+    srcset="https://raw.githubusercontent.com/Pushpit1/Pushpit1/main/art/profile-banner.png"
   />
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,45:FCE4EC,75:F8BBD0,100:EF93C4&height=210&section=header&animation=fadeIn"
+    src="https://raw.githubusercontent.com/Pushpit1/Pushpit1/main/art/profile-banner.png"
     width="100%"
-    alt="Header"
+    alt="Pushpit profile banner"
   />
 </picture>
 
 <br>
 
-# Hey there, I'm Pushpit 👋
+<h1>Hey there, I'm Pushpit 👋</h1>
 
-### Full-Stack Developer · Software Engineer · CS Enthusiast
+<p>
+  <strong>Full-Stack Developer</strong>
+  &nbsp;·&nbsp;
+  <strong>Software Engineer</strong>
+  &nbsp;·&nbsp;
+  <strong>CS Enthusiast</strong>
+</p>
+
+<p>
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=EF93C4&center=true&vCenter=true&width=700&lines=Building+things+that+solve+real+problems;Learning+Computer+Science+deeply;Turning+ideas+into+working+software;Writing+cleaner+code+every+day;Always+building.+Always+learning."
+    alt="Typing animation"
+  />
+</p>
 
 <br>
 
-<a href="https://git.io/typing-svg">
+<p>
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=800&color=EF93C4&center=true&vCenter=true&width=850&lines=Building+full-stack+applications;Engineering+scalable+software;Learning+Computer+Science+deeply;Exploring+systems+and+architecture;Turning+ideas+into+real+products"
-    alt="Typing animation"
-  />
-</a>
-
-<br><br>
-
-<a href="https://github.com/Pushpit1">
-  <img
-    src="https://img.shields.io/github/followers/Pushpit1?style=for-the-badge&label=Followers&color=EF93C4&labelColor=161616"
+    src="https://img.shields.io/github/followers/Pushpit1?label=Followers&style=for-the-badge&color=EF93C4&labelColor=161616"
     alt="GitHub followers"
   />
-</a>
-
-&nbsp;
-
-<a href="https://github.com/Pushpit1?tab=repositories">
   <img
-    src="https://img.shields.io/github/stars/Pushpit1?style=for-the-badge&label=Stars&color=F8BBD0&labelColor=161616"
+    src="https://img.shields.io/github/stars/Pushpit1?label=Stars&style=for-the-badge&color=F8BBD0&labelColor=161616"
     alt="GitHub stars"
   />
-</a>
-
-&nbsp;
-
-<img
-  src="https://komarev.com/ghpvc/?username=Pushpit1&style=for-the-badge&color=FF69B4&label=PROFILE+VIEWS"
-  alt="Profile views"
-/>
-
-<br><br>
-
-<a href="https://www.linkedin.com/in/pushpit-kumar-gaur-7484b0341/">
   <img
-    src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-    alt="LinkedIn"
+    src="https://komarev.com/ghpvc/?username=Pushpit1&label=Profile%20Views&color=FF69B4&style=for-the-badge"
+    alt="Profile views"
   />
-</a>
+</p>
 
 </div>
 
@@ -71,58 +64,59 @@
 
 ---
 
-<div align="center">
+## 🧑‍💻 About Me
 
-## 👨‍💻 About Me
-
-</div>
-
-<table align="center" width="90%">
+<table>
 <tr>
-
 <td width="65%" valign="top">
 
-### Hi, I'm Pushpit.
+### Hey! I'm Pushpit.
 
-I'm a **Full-Stack Developer and Software Engineer** who enjoys building software while developing a strong understanding of the Computer Science fundamentals behind it.
+I'm a **Full-Stack Developer, Software Engineer and Computer Science enthusiast** who enjoys understanding software from its fundamentals all the way to production systems.
 
-I care about more than just making applications work. I want to understand **how systems work, why engineering decisions matter, and how software can be made scalable, reliable, and maintainable.**
-
-<br>
-
-- 💻 Full-Stack Development
-- 🧠 Computer Science & Problem Solving
-- ⚙️ Backend Engineering
-- 🏗️ Software Architecture
-- 🌐 Modern Web Applications
-- 📚 Continuous Learning
-- 🔍 Systems & Engineering Fundamentals
-- 🚀 Building real-world software
+I like building things, breaking them, understanding why they broke, and then building them better.
 
 <br>
 
-> **Understand deeply. Build carefully. Improve continuously.**
+**What I enjoy working on**
+
+* 🧠 Computer Science & Software Engineering fundamentals
+* 🏗️ Full-stack application architecture
+* ⚙️ Backend systems and APIs
+* 🎨 Modern frontend development
+* 🐍 Python-based development
+* 🔐 Reliable and maintainable software
+* 📚 Continuous learning and experimentation
+* 🚀 Turning ideas into real working systems
+
+<br>
+
+**My philosophy**
+
+> Build with curiosity.
+> Learn with depth.
+> Improve continuously.
 
 </td>
 
 <td width="35%" align="center" valign="middle">
 
 <img
-  src="https://github.com/Pushpit1.png"
-  width="220"
-  alt="Pushpit"
+src="https://github.com/Pushpit1.png"
+width="240"
+alt="Pushpit profile image"
 />
 
 <br><br>
 
-<img
-  src="https://skillicons.dev/icons?i=github"
-  width="50"
-  alt="GitHub"
-/>
+<a href="https://github.com/Pushpit1">
+  <img
+    src="https://img.shields.io/badge/Explore_My_GitHub-161616?style=for-the-badge&logo=github&logoColor=white"
+    alt="Explore GitHub"
+  />
+</a>
 
 </td>
-
 </tr>
 </table>
 
@@ -130,75 +124,15 @@ I care about more than just making applications work. I want to understand **how
 
 ---
 
-<div align="center">
-
-## 🧠 What I'm Working On
-
-<br>
-
-<table width="90%">
-<tr>
-
-<td align="center" width="25%">
-
-### 💻
-
-**Full-Stack**
-
-Building complete applications from frontend to backend.
-
-</td>
-
-<td align="center" width="25%">
-
-### ⚙️
-
-**Engineering**
-
-Improving architecture, APIs, reliability and scalability.
-
-</td>
-
-<td align="center" width="25%">
-
-### 🧠
-
-**CS Fundamentals**
-
-Going deeper into DSA, OS, DBMS, networking and systems.
-
-</td>
-
-<td align="center" width="25%">
-
-### 🚀
-
-**Projects**
-
-Turning ideas into practical, production-quality software.
-
-</td>
-
-</tr>
-</table>
-
-</div>
-
-<br>
-
----
+## 🛠️ Tech Stack
 
 <div align="center">
-
-## 🛠️ Technologies
-
-<br>
 
 ### Languages
 
 <img
-  src="https://skillicons.dev/icons?i=c,cpp,python,java,javascript,typescript"
-  alt="Languages"
+src="https://skillicons.dev/icons?i=python,js,ts,cpp,java"
+alt="Programming languages"
 />
 
 <br><br>
@@ -206,26 +140,17 @@ Turning ideas into practical, production-quality software.
 ### Frontend
 
 <img
-  src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind"
-  alt="Frontend"
+src="https://skillicons.dev/icons?i=html,css,react"
+alt="Frontend technologies"
 />
 
 <br><br>
 
-### Backend
+### Backend & Databases
 
 <img
-  src="https://skillicons.dev/icons?i=nodejs,express,nestjs,fastapi,django"
-  alt="Backend"
-/>
-
-<br><br>
-
-### Databases
-
-<img
-  src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis"
-  alt="Databases"
+src="https://skillicons.dev/icons?i=nodejs,fastapi,django,postgres,mongodb"
+alt="Backend technologies and databases"
 />
 
 <br><br>
@@ -233,8 +158,8 @@ Turning ideas into practical, production-quality software.
 ### Tools & Infrastructure
 
 <img
-  src="https://skillicons.dev/icons?i=git,github,docker,linux,aws,nginx,postman,vscode"
-  alt="Tools and infrastructure"
+src="https://skillicons.dev/icons?i=git,github,docker,vscode,linux"
+alt="Development tools"
 />
 
 </div>
@@ -243,36 +168,87 @@ Turning ideas into practical, production-quality software.
 
 ---
 
+## ⚡ What I Care About
+
 <div align="center">
 
-## 📈 GitHub Activity
+<table>
+<tr>
+
+<td width="33%" align="center" valign="top">
+
+### 🧠 Fundamentals
+
+Data Structures
+Algorithms
+Operating Systems
+Computer Networks
+Databases
+Software Engineering
+
+</td>
+
+<td width="33%" align="center" valign="top">
+
+### 🏗️ Engineering
+
+Clean Architecture
+APIs & Backend Systems
+Testing
+Debugging
+Performance
+Maintainability
+
+</td>
+
+<td width="33%" align="center" valign="top">
+
+### 🚀 Growth
+
+Build
+Experiment
+Learn
+Refactor
+Ship
+Repeat
+
+</td>
+
+</tr>
+</table>
+
+</div>
 
 <br>
 
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
 <a href="https://github.com/Pushpit1">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=Pushpit1&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=00000000&title_color=EF93C4&icon_color=FF69B4&text_color=F8BBD0"
-    height="180"
+    src="https://raw.githubusercontent.com/Pushpit1/Pushpit1/main/generated/stats.svg"
+    width="49%"
     alt="GitHub statistics"
   />
 </a>
 
-&nbsp;&nbsp;
-
 <a href="https://github.com/Pushpit1">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pushpit1&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=EF93C4&text_color=F8BBD0"
-    height="180"
-    alt="Top languages"
+    src="https://raw.githubusercontent.com/Pushpit1/Pushpit1/main/generated/languages.svg"
+    width="49%"
+    alt="Most used programming languages"
   />
 </a>
 
 <br><br>
 
 <img
-  src="https://streak-stats.demolab.com?user=Pushpit1&hide_border=true&background=00000000&ring=EF93C4&fire=FF69B4&currStreakLabel=EF93C4&sideLabels=F8BBD0&currStreakNum=FF69B4&sideNums=F8BBD0&dates=F8BBD0"
-  width="70%"
-  alt="GitHub streak"
+src="https://streak-stats.demolab.com?user=Pushpit1&hide_border=true&background=00000000&ring=EF93C4&fire=FF69B4&currStreakLabel=EF93C4&sideLabels=F8BBD0&currStreakNum=FF69B4&sideNums=F8BBD0&dates=F8BBD0"
+width="72%"
+alt="GitHub contribution streak"
 />
 
 </div>
@@ -281,45 +257,13 @@ Turning ideas into practical, production-quality software.
 
 ---
 
-<div align="center">
-
-## 📊 Contribution Graph
-
-<br>
-
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=Pushpit1&bg_color=00000000&color=EF93C4&line=FF69B4&point=F8BBD0&area=true&hide_border=true"
-  width="95%"
-  alt="GitHub contribution graph"
-/>
-
-</div>
-
-<br>
-
----
+## 🐍 Contribution Journey
 
 <div align="center">
 
-## 🏆 Achievements
-
-<br>
-
-<img
-  src="https://github-profile-trophy.vercel.app/?username=Pushpit1&theme=flat&no-frame=true&no-bg=true&margin-w=8&row=1&column=7"
-  width="95%"
-  alt="GitHub trophies"
-/>
-
-</div>
-
-<br>
-
----
-
-<div align="center">
-
-## 🐍 Contributions
+<p>
+  <em>Every contribution is another step forward.</em>
+</p>
 
 <br>
 
@@ -335,7 +279,7 @@ Turning ideas into practical, production-quality software.
   <img
     src="https://raw.githubusercontent.com/Pushpit1/Pushpit1/output/github-contribution-grid-snake.svg"
     width="90%"
-    alt="GitHub contribution snake"
+    alt="GitHub contribution snake animation"
   />
 </picture>
 
@@ -345,58 +289,98 @@ Turning ideas into practical, production-quality software.
 
 ---
 
+## 💻 Featured Work
+
 <div align="center">
 
-## 🚀 Featured Projects
+<p>
+  <em>A collection of projects, experiments, and things I'm building.</em>
+</p>
 
 <br>
 
-<table width="90%">
+<a href="https://github.com/Pushpit1?tab=repositories">
+  <img
+    src="https://img.shields.io/badge/Explore_My_Repositories-161616?style=for-the-badge&logo=github&logoColor=white"
+    alt="Explore repositories"
+  />
+</a>
+
+  
+
+<a href="https://github.com/Pushpit1?tab=projects">
+  <img
+    src="https://img.shields.io/badge/View_My_Projects-EF93C4?style=for-the-badge&logo=github&logoColor=161616"
+    alt="View projects"
+  />
+</a>
+
+</div>
+
+<br>
+
+---
+
+## 🌱 Currently
+
+<div align="center">
+
+<table>
 <tr>
 
-<td width="50%" align="center" valign="top">
+<td align="center" width="25%" valign="top">
 
-### Project One
+### 🧠
 
-**YOUR_PROJECT_NAME**
-
-YOUR_PROJECT_DESCRIPTION
-
-<br>
-
-<img src="https://skillicons.dev/icons?i=python,fastapi,postgres" alt="Project technologies">
+<strong>Learning</strong>
 
 <br><br>
 
-<a href="https://github.com/Pushpit1/YOUR_PROJECT_ONE">
-  <img
-    src="https://img.shields.io/badge/View%20Project-FF69B4?style=for-the-badge&logo=github&logoColor=white"
-    alt="View project"
-  />
-</a>
+Computer Science
+Software Engineering
+System Design
 
 </td>
 
-<td width="50%" align="center" valign="top">
+<td align="center" width="25%" valign="top">
 
-### Project Two
+### 🏗️
 
-**YOUR_PROJECT_NAME**
-
-YOUR_PROJECT_DESCRIPTION
-
-<br>
-
-<img src="https://skillicons.dev/icons?i=react,nodejs,mongodb" alt="Project technologies">
+<strong>Building</strong>
 
 <br><br>
 
-<a href="https://github.com/Pushpit1/YOUR_PROJECT_TWO">
-  <img
-    src="https://img.shields.io/badge/View%20Project-EF93C4?style=for-the-badge&logo=github&logoColor=white"
-    alt="View project"
-  />
-</a>
+Full-Stack
+Applications
+Real Systems
+
+</td>
+
+<td align="center" width="25%" valign="top">
+
+### ⚙️
+
+<strong>Improving</strong>
+
+<br><br>
+
+Architecture
+Code Quality
+Problem Solving
+
+</td>
+
+<td align="center" width="25%" valign="top">
+
+### 🚀
+
+<strong>Exploring</strong>
+
+<br><br>
+
+New Technologies
+Ideas
+Experiments
 
 </td>
 
@@ -409,50 +393,22 @@ YOUR_PROJECT_DESCRIPTION
 
 ---
 
-<div align="center">
-
-## 📚 Currently Learning
-
-<br>
-
-<img src="https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-EF93C4?style=for-the-badge" alt="DSA">
-&nbsp;
-<img src="https://img.shields.io/badge/Operating%20Systems-F8BBD0?style=for-the-badge&labelColor=161616" alt="Operating Systems">
-&nbsp;
-<img src="https://img.shields.io/badge/DBMS-FF69B4?style=for-the-badge" alt="DBMS">
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Computer%20Networks-EF93C4?style=for-the-badge" alt="Computer Networks">
-&nbsp;
-<img src="https://img.shields.io/badge/System%20Design-F8BBD0?style=for-the-badge&labelColor=161616" alt="System Design">
-&nbsp;
-<img src="https://img.shields.io/badge/Software%20Engineering-FF69B4?style=for-the-badge" alt="Software Engineering">
-
-</div>
-
-<br>
-
----
+## 🤝 Let's Connect
 
 <div align="center">
-
-## 🌐 Connect
-
-<br>
 
 <a href="https://github.com/Pushpit1">
   <img
-    src="https://img.shields.io/badge/GitHub-Pushpit1-161616?style=for-the-badge&logo=github&logoColor=white"
+    src="https://img.shields.io/badge/GitHub-161616?style=for-the-badge&logo=github&logoColor=white"
     alt="GitHub"
   />
 </a>
 
-&nbsp;
+ 
 
-<a href="https://www.linkedin.com/in/pushpit-kumar-gaur-7484b0341/">
+<a href="https://www.linkedin.com/in/pushpit-kumar-gaur-7484b0341/?skipRedirect=true">
   <img
-    src="https://img.shields.io/badge/LinkedIn-Pushpit%20Kumar%20Gaur-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+    src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
     alt="LinkedIn"
   />
 </a>
@@ -463,26 +419,18 @@ YOUR_PROJECT_DESCRIPTION
 
 <div align="center">
 
-### ✨ Thanks for visiting!
+### 💗 Thanks for stopping by!
 
-<i>Keep learning · Keep building · Keep improving</i>
+<p>
+  <em>Keep building. Keep learning. Keep improving.</em>
+</p>
 
-<br><br>
+<br>
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0A1F44,45:1565C0,75:2196F3,100:64B5F6&height=170&section=footer&animation=twinkling"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://capsule-render.vercel.app/api?type=waving&color=0:E3F2FD,45:90CAF9,75:42A5F5,100:1976D2&height=170&section=footer&animation=twinkling"
-  />
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:E3F2FD,45:90CAF9,75:42A5F5,100:1976D2&height=170&section=footer&animation=twinkling"
-    width="100%"
-    alt="Footer"
-  />
-</picture>
+<img
+src="https://capsule-render.vercel.app/api?type=waving&color=0:87CEFA,100:4A90E2&height=120&section=footer"
+width="100%"
+alt="Blue footer"
+/>
 
 </div>
