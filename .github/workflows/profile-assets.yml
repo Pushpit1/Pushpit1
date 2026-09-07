@@ -1,0 +1,500 @@
+name: Generate Profile Assets
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "30 0 * * *"
+
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ------------------------------------------------------------
+      # Generate GitHub statistics + language statistics
+      # ------------------------------------------------------------
+
+      - name: Generate statistics
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+          import html
+          from pathlib import Path
+          from datetime import datetime, timezone
+
+          USERNAME = "Pushpit1"
+          TOKEN = os.environ["GH_TOKEN"]
+
+          headers = {
+              "Accept": "application/vnd.github+json",
+              "Authorization": f"Bearer {TOKEN}",
+              "User-Agent": "Pushpit1-profile-assets"
+          }
+
+          def api(url):
+              request = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(request) as response:
+                  return json.load(response)
+
+          # ----------------------------------------------------------
+          # User information
+          # ----------------------------------------------------------
+
+          user = api(f"https://api.github.com/users/{USERNAME}")
+
+          # ----------------------------------------------------------
+          # Repositories
+          # ----------------------------------------------------------
+
+          repos = []
+          page = 1
+
+          while True:
+              data = api(
+                  f"https://api.github.com/users/{USERNAME}/repos"
+                  f"?per_page=100&page={page}&type=owner"
+              )
+
+              if not data:
+                  break
+
+              repos.extend(data)
+
+              if len(data) < 100:
+                  break
+
+              page += 1
+
+          public_repos = [
+              repo
+              for repo in repos
+              if not repo["private"]
+              and not repo["fork"]
+              and not repo["archived"]
+          ]
+
+          stars = sum(
+              repo["stargazers_count"]
+              for repo in public_repos
+          )
+
+          forks = sum(
+              repo["forks_count"]
+              for repo in public_repos
+          )
+
+          # ----------------------------------------------------------
+          # Languages
+          # ----------------------------------------------------------
+
+          languages = {}
+
+          for repo in public_repos:
+              try:
+                  repo_languages = api(repo["languages_url"])
+
+                  for language, amount in repo_languages.items():
+                      languages[language] = (
+                          languages.get(language, 0) + amount
+                      )
+
+              except Exception:
+                  pass
+
+          languages = dict(
+              sorted(
+                  languages.items(),
+                  key=lambda item: item[1],
+                  reverse=True
+              )
+          )
+
+          top_languages = list(languages.items())[:6]
+
+          total_language_bytes = sum(
+              value for _, value in top_languages
+          )
+
+          # ----------------------------------------------------------
+          # Output directory
+          # ----------------------------------------------------------
+
+          generated = Path("generated")
+          generated.mkdir(exist_ok=True)
+
+          # ----------------------------------------------------------
+          # Theme
+          # ----------------------------------------------------------
+
+          pink = "#EF93C4"
+          light_pink = "#F8BBD0"
+          hot_pink = "#FF69B4"
+
+          dark = "#0D0D12"
+          dark_2 = "#18131A"
+          muted = "#A9A3AA"
+
+          # ----------------------------------------------------------
+          # Statistics SVG
+          # ----------------------------------------------------------
+
+          stats_svg = f"""<svg xmlns="http://www.w3.org/2000/svg"
+          width="560"
+          height="270"
+          viewBox="0 0 560 270">
+
+          <defs>
+            <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="{dark}"/>
+              <stop offset="100%" stop-color="{dark_2}"/>
+            </linearGradient>
+
+            <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stop-color="{pink}"/>
+              <stop offset="100%" stop-color="{hot_pink}"/>
+            </linearGradient>
+          </defs>
+
+          <rect
+            x="1"
+            y="1"
+            width="558"
+            height="268"
+            rx="20"
+            fill="url(#background)"
+            stroke="{pink}"
+            stroke-width="1"
+          />
+
+          <text
+            x="30"
+            y="43"
+            fill="{pink}"
+            font-family="Arial, sans-serif"
+            font-size="24"
+            font-weight="700">
+            GitHub Statistics
+          </text>
+
+          <rect
+            x="30"
+            y="58"
+            width="500"
+            height="2"
+            rx="1"
+            fill="url(#accent)"
+          />
+
+          <!-- Row 1 -->
+
+          <text
+            x="35"
+            y="100"
+            fill="{light_pink}"
+            font-family="Arial, sans-serif"
+            font-size="14">
+            Public Repositories
+          </text>
+
+          <text
+            x="35"
+            y="128"
+            fill="white"
+            font-family="Arial, sans-serif"
+            font-size="26"
+            font-weight="700">
+            {len(public_repos)}
+          </text>
+
+          <text
+            x="215"
+            y="100"
+            fill="{light_pink}"
+            font-family="Arial, sans-serif"
+            font-size="14">
+            Total Stars
+          </text>
+
+          <text
+            x="215"
+            y="128"
+            fill="white"
+            font-family="Arial, sans-serif"
+            font-size="26"
+            font-weight="700">
+            {stars}
+          </text>
+
+          <text
+            x="395"
+            y="100"
+            fill="{light_pink}"
+            font-family="Arial, sans-serif"
+            font-size="14">
+            Forks
+          </text>
+
+          <text
+            x="395"
+            y="128"
+            fill="white"
+            font-family="Arial, sans-serif"
+            font-size="26"
+            font-weight="700">
+            {forks}
+          </text>
+
+          <!-- Row 2 -->
+
+          <text
+            x="35"
+            y="170"
+            fill="{light_pink}"
+            font-family="Arial, sans-serif"
+            font-size="14">
+            Followers
+          </text>
+
+          <text
+            x="35"
+            y="198"
+            fill="white"
+            font-family="Arial, sans-serif"
+            font-size="26"
+            font-weight="700">
+            {user["followers"]}
+          </text>
+
+          <text
+            x="215"
+            y="170"
+            fill="{light_pink}"
+            font-family="Arial, sans-serif"
+            font-size="14">
+            Following
+          </text>
+
+          <text
+            x="215"
+            y="198"
+            fill="white"
+            font-family="Arial, sans-serif"
+            font-size="26"
+            font-weight="700">
+            {user["following"]}
+          </text>
+
+          <text
+            x="395"
+            y="170"
+            fill="{light_pink}"
+            font-family="Arial, sans-serif"
+            font-size="14">
+            Public Activity
+          </text>
+
+          <text
+            x="395"
+            y="198"
+            fill="white"
+            font-family="Arial, sans-serif"
+            font-size="20"
+            font-weight="700">
+            Building
+          </text>
+
+          <text
+            x="35"
+            y="238"
+            fill="{muted}"
+            font-family="Arial, sans-serif"
+            font-size="11">
+            Automatically generated from GitHub
+          </text>
+
+          </svg>"""
+
+          generated.joinpath("stats.svg").write_text(
+              stats_svg,
+              encoding="utf-8"
+          )
+
+          # ----------------------------------------------------------
+          # Language SVG
+          # ----------------------------------------------------------
+
+          language_rows = []
+
+          for i, (language, value) in enumerate(top_languages):
+              percentage = (
+                  value / total_language_bytes * 100
+                  if total_language_bytes
+                  else 0
+              )
+
+              safe_language = html.escape(language)
+
+              y = 88 + i * 28
+              bar_y = y + 8
+
+              language_rows.append(
+                  f"""
+                  <text
+                    x="35"
+                    y="{y}"
+                    fill="{light_pink}"
+                    font-family="Arial, sans-serif"
+                    font-size="14">
+                    {safe_language}
+                  </text>
+
+                  <text
+                    x="525"
+                    y="{y}"
+                    fill="white"
+                    font-family="Arial, sans-serif"
+                    font-size="14"
+                    text-anchor="end">
+                    {percentage:.1f}%
+                  </text>
+
+                  <rect
+                    x="35"
+                    y="{bar_y}"
+                    width="490"
+                    height="7"
+                    rx="3.5"
+                    fill="#33232E"
+                  />
+
+                  <rect
+                    x="35"
+                    y="{bar_y}"
+                    width="{490 * percentage / 100:.2f}"
+                    height="7"
+                    rx="3.5"
+                    fill="{pink}"
+                  />
+                  """
+              )
+
+          language_svg = f"""<svg xmlns="http://www.w3.org/2000/svg"
+          width="560"
+          height="270"
+          viewBox="0 0 560 270">
+
+          <rect
+            x="1"
+            y="1"
+            width="558"
+            height="268"
+            rx="20"
+            fill="{dark}"
+            stroke="{pink}"
+            stroke-width="1"
+          />
+
+          <text
+            x="30"
+            y="43"
+            fill="{pink}"
+            font-family="Arial, sans-serif"
+            font-size="24"
+            font-weight="700">
+            Most Used Languages
+          </text>
+
+          <rect
+            x="30"
+            y="58"
+            width="500"
+            height="2"
+            rx="1"
+            fill="{hot_pink}"
+          />
+
+          {"".join(language_rows)}
+
+          <text
+            x="35"
+            y="245"
+            fill="{muted}"
+            font-family="Arial, sans-serif"
+            font-size="11">
+            Based on code bytes in public repositories
+          </text>
+
+          </svg>"""
+
+          generated.joinpath("languages.svg").write_text(
+              language_svg,
+              encoding="utf-8"
+          )
+
+          print("Generated profile statistics.")
+          print(f"Public repositories: {len(public_repos)}")
+          print(f"Stars: {stars}")
+          print(f"Forks: {forks}")
+          print(f"Followers: {user['followers']}")
+          print(f"Following: {user['following']}")
+          print("Languages:", ", ".join(
+              language for language, _ in top_languages
+          ))
+          PY
+
+      # ------------------------------------------------------------
+      # Commit generated statistics
+      # ------------------------------------------------------------
+
+      - name: Commit statistics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add generated/
+
+          if git diff --cached --quiet; then
+            echo "No statistics changes."
+          else
+            git commit -m "chore: update profile statistics"
+            git push
+          fi
+
+      # ------------------------------------------------------------
+      # Generate contribution snake
+      # ------------------------------------------------------------
+
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Pushpit1
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=%23EF93C4&color_dots=%2316131A,%23F8BBD0,%23EF93C4,%23FF69B4,%23FF4FA3
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23FF69B4
+
+      # ------------------------------------------------------------
+      # Publish snake to output branch
+      # ------------------------------------------------------------
+
+      - name: Publish contribution snake
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
