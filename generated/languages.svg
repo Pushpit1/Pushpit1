@@ -50,7 +50,7 @@ viewBox="0 0 560 270">
           font-family="Arial, sans-serif"
           font-size="14"
           text-anchor="end">
-          73.6%
+          73.4%
         </text>
 
         <rect
@@ -65,7 +65,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="96"
-          width="360.52"
+          width="359.44"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -87,7 +87,7 @@ viewBox="0 0 560 270">
           font-family="Arial, sans-serif"
           font-size="14"
           text-anchor="end">
-          12.6%
+          12.5%
         </text>
 
         <rect
@@ -102,7 +102,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="124"
-          width="61.60"
+          width="61.42"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -139,7 +139,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="152"
-          width="20.30"
+          width="20.24"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -161,7 +161,7 @@ viewBox="0 0 560 270">
           font-family="Arial, sans-serif"
           font-size="14"
           text-anchor="end">
-          3.9%
+          3.8%
         </text>
 
         <rect
@@ -176,7 +176,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="180"
-          width="18.90"
+          width="18.85"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -213,7 +213,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="208"
-          width="18.04"
+          width="17.99"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -225,7 +225,7 @@ viewBox="0 0 560 270">
           fill="#F8BBD0"
           font-family="Arial, sans-serif"
           font-size="14">
-          C++
+          Java
         </text>
 
         <text
@@ -235,7 +235,7 @@ viewBox="0 0 560 270">
           font-family="Arial, sans-serif"
           font-size="14"
           text-anchor="end">
-          2.2%
+          2.5%
         </text>
 
         <rect
@@ -250,7 +250,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="236"
-          width="10.64"
+          width="12.08"
           height="7"
           rx="3.5"
           fill="#EF93C4"
