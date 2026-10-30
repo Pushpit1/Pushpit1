@@ -50,7 +50,7 @@ viewBox="0 0 560 270">
           font-family="Arial, sans-serif"
           font-size="14"
           text-anchor="end">
-          72.5%
+          72.3%
         </text>
 
         <rect
@@ -65,7 +65,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="96"
-          width="355.11"
+          width="354.38"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -102,7 +102,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="124"
-          width="60.68"
+          width="60.55"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -139,7 +139,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="152"
-          width="19.99"
+          width="19.95"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -151,7 +151,7 @@ viewBox="0 0 560 270">
           fill="#F8BBD0"
           font-family="Arial, sans-serif"
           font-size="14">
-          CSS
+          Java
         </text>
 
         <text
@@ -176,7 +176,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="180"
-          width="18.62"
+          width="18.80"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -188,7 +188,7 @@ viewBox="0 0 560 270">
           fill="#F8BBD0"
           font-family="Arial, sans-serif"
           font-size="14">
-          Java
+          CSS
         </text>
 
         <text
@@ -198,7 +198,7 @@ viewBox="0 0 560 270">
           font-family="Arial, sans-serif"
           font-size="14"
           text-anchor="end">
-          3.6%
+          3.8%
         </text>
 
         <rect
@@ -213,7 +213,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="208"
-          width="17.84"
+          width="18.58"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -250,7 +250,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="236"
-          width="17.77"
+          width="17.73"
           height="7"
           rx="3.5"
           fill="#EF93C4"
