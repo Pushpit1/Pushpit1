@@ -50,7 +50,7 @@ viewBox="0 0 560 270">
           font-family="Arial, sans-serif"
           font-size="14"
           text-anchor="end">
-          70.0%
+          62.1%
         </text>
 
         <rect
@@ -65,7 +65,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="96"
-          width="342.98"
+          width="304.35"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -87,7 +87,7 @@ viewBox="0 0 560 270">
           font-family="Arial, sans-serif"
           font-size="14"
           text-anchor="end">
-          13.3%
+          11.8%
         </text>
 
         <rect
@@ -102,7 +102,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="124"
-          width="65.41"
+          width="58.04"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -114,7 +114,7 @@ viewBox="0 0 560 270">
           fill="#F8BBD0"
           font-family="Arial, sans-serif"
           font-size="14">
-          Java
+          JavaScript
         </text>
 
         <text
@@ -124,7 +124,7 @@ viewBox="0 0 560 270">
           font-family="Arial, sans-serif"
           font-size="14"
           text-anchor="end">
-          5.5%
+          8.3%
         </text>
 
         <rect
@@ -139,7 +139,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="152"
-          width="27.15"
+          width="40.45"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -148,80 +148,6 @@ viewBox="0 0 560 270">
         <text
           x="35"
           y="172"
-          fill="#F8BBD0"
-          font-family="Arial, sans-serif"
-          font-size="14">
-          Go
-        </text>
-
-        <text
-          x="525"
-          y="172"
-          fill="white"
-          font-family="Arial, sans-serif"
-          font-size="14"
-          text-anchor="end">
-          3.9%
-        </text>
-
-        <rect
-          x="35"
-          y="180"
-          width="490"
-          height="7"
-          rx="3.5"
-          fill="#33232E"
-        />
-
-        <rect
-          x="35"
-          y="180"
-          width="19.31"
-          height="7"
-          rx="3.5"
-          fill="#EF93C4"
-        />
-        
-        <text
-          x="35"
-          y="200"
-          fill="#F8BBD0"
-          font-family="Arial, sans-serif"
-          font-size="14">
-          CSS
-        </text>
-
-        <text
-          x="525"
-          y="200"
-          fill="white"
-          font-family="Arial, sans-serif"
-          font-size="14"
-          text-anchor="end">
-          3.7%
-        </text>
-
-        <rect
-          x="35"
-          y="208"
-          width="490"
-          height="7"
-          rx="3.5"
-          fill="#33232E"
-        />
-
-        <rect
-          x="35"
-          y="208"
-          width="17.99"
-          height="7"
-          rx="3.5"
-          fill="#EF93C4"
-        />
-        
-        <text
-          x="35"
-          y="228"
           fill="#F8BBD0"
           font-family="Arial, sans-serif"
           font-size="14">
@@ -230,12 +156,86 @@ viewBox="0 0 560 270">
 
         <text
           x="525"
+          y="172"
+          fill="white"
+          font-family="Arial, sans-serif"
+          font-size="14"
+          text-anchor="end">
+          6.7%
+        </text>
+
+        <rect
+          x="35"
+          y="180"
+          width="490"
+          height="7"
+          rx="3.5"
+          fill="#33232E"
+        />
+
+        <rect
+          x="35"
+          y="180"
+          width="32.59"
+          height="7"
+          rx="3.5"
+          fill="#EF93C4"
+        />
+        
+        <text
+          x="35"
+          y="200"
+          fill="#F8BBD0"
+          font-family="Arial, sans-serif"
+          font-size="14">
+          Go
+        </text>
+
+        <text
+          x="525"
+          y="200"
+          fill="white"
+          font-family="Arial, sans-serif"
+          font-size="14"
+          text-anchor="end">
+          6.1%
+        </text>
+
+        <rect
+          x="35"
+          y="208"
+          width="490"
+          height="7"
+          rx="3.5"
+          fill="#33232E"
+        />
+
+        <rect
+          x="35"
+          y="208"
+          width="30.05"
+          height="7"
+          rx="3.5"
+          fill="#EF93C4"
+        />
+        
+        <text
+          x="35"
+          y="228"
+          fill="#F8BBD0"
+          font-family="Arial, sans-serif"
+          font-size="14">
+          CSS
+        </text>
+
+        <text
+          x="525"
           y="228"
           fill="white"
           font-family="Arial, sans-serif"
           font-size="14"
           text-anchor="end">
-          3.5%
+          5.0%
         </text>
 
         <rect
@@ -250,7 +250,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="236"
-          width="17.16"
+          width="24.51"
           height="7"
           rx="3.5"
           fill="#EF93C4"
