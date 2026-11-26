@@ -50,7 +50,7 @@ viewBox="0 0 560 270">
           font-family="Arial, sans-serif"
           font-size="14"
           text-anchor="end">
-          62.1%
+          55.6%
         </text>
 
         <rect
@@ -65,7 +65,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="96"
-          width="304.35"
+          width="272.51"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -87,7 +87,7 @@ viewBox="0 0 560 270">
           font-family="Arial, sans-serif"
           font-size="14"
           text-anchor="end">
-          11.8%
+          10.6%
         </text>
 
         <rect
@@ -102,7 +102,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="124"
-          width="58.04"
+          width="51.97"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -124,7 +124,7 @@ viewBox="0 0 560 270">
           font-family="Arial, sans-serif"
           font-size="14"
           text-anchor="end">
-          8.3%
+          10.5%
         </text>
 
         <rect
@@ -139,7 +139,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="152"
-          width="40.45"
+          width="51.33"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -148,43 +148,6 @@ viewBox="0 0 560 270">
         <text
           x="35"
           y="172"
-          fill="#F8BBD0"
-          font-family="Arial, sans-serif"
-          font-size="14">
-          HTML
-        </text>
-
-        <text
-          x="525"
-          y="172"
-          fill="white"
-          font-family="Arial, sans-serif"
-          font-size="14"
-          text-anchor="end">
-          6.7%
-        </text>
-
-        <rect
-          x="35"
-          y="180"
-          width="490"
-          height="7"
-          rx="3.5"
-          fill="#33232E"
-        />
-
-        <rect
-          x="35"
-          y="180"
-          width="32.59"
-          height="7"
-          rx="3.5"
-          fill="#EF93C4"
-        />
-        
-        <text
-          x="35"
-          y="200"
           fill="#F8BBD0"
           font-family="Arial, sans-serif"
           font-size="14">
@@ -193,12 +156,49 @@ viewBox="0 0 560 270">
 
         <text
           x="525"
+          y="172"
+          fill="white"
+          font-family="Arial, sans-serif"
+          font-size="14"
+          text-anchor="end">
+          9.9%
+        </text>
+
+        <rect
+          x="35"
+          y="180"
+          width="490"
+          height="7"
+          rx="3.5"
+          fill="#33232E"
+        />
+
+        <rect
+          x="35"
+          y="180"
+          width="48.36"
+          height="7"
+          rx="3.5"
+          fill="#EF93C4"
+        />
+        
+        <text
+          x="35"
+          y="200"
+          fill="#F8BBD0"
+          font-family="Arial, sans-serif"
+          font-size="14">
+          HTML
+        </text>
+
+        <text
+          x="525"
           y="200"
           fill="white"
           font-family="Arial, sans-serif"
           font-size="14"
           text-anchor="end">
-          6.1%
+          7.6%
         </text>
 
         <rect
@@ -213,7 +213,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="208"
-          width="30.05"
+          width="37.08"
           height="7"
           rx="3.5"
           fill="#EF93C4"
@@ -235,7 +235,7 @@ viewBox="0 0 560 270">
           font-family="Arial, sans-serif"
           font-size="14"
           text-anchor="end">
-          5.0%
+          5.9%
         </text>
 
         <rect
@@ -250,7 +250,7 @@ viewBox="0 0 560 270">
         <rect
           x="35"
           y="236"
-          width="24.51"
+          width="28.75"
           height="7"
           rx="3.5"
           fill="#EF93C4"
